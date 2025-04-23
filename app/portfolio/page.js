@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import ProjectCard from "../_components/ProjectCard";
+import { useEffect, useState } from "react";
 
 const projects = [
   {
@@ -39,6 +40,33 @@ const projects = [
 ];
 
 export default function Portfolio() {
+  const [windowSize, setWindowSize] = useState({
+    width: 0,
+    height: 0,
+  });
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    }
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const getSize = () => {
+    if (windowSize.width >= 1280) return "xl";
+    if (windowSize.width >= 1024) return "lg";
+    if (windowSize.width >= 768) return "md";
+    return "sm";
+  };
+
   return (
     <motion.main
       className="min-h-screen w-full bg-gray-100 pt-14"
@@ -88,18 +116,7 @@ export default function Portfolio() {
               initial="hidden"
               transition={{ duration: 0.4 }}
             >
-              <ProjectCard
-                project={project}
-                size={
-                  window.innerWidth >= 1280
-                    ? "xl"
-                    : window.innerWidth >= 1024
-                      ? "lg"
-                      : window.innerWidth >= 768
-                        ? "md"
-                        : "sm"
-                }
-              />
+              <ProjectCard project={project} size={getSize()} />
             </motion.div>
           ))}
         </motion.div>
