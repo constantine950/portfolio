@@ -1,0 +1,10 @@
+@import "tailwindcss";
+/* Add smooth transitions for the mobile menu */
+.mobile-menu {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hide scrollbar when menu is open */
+body.menu-open {
+  overflow: hidden;
+}
