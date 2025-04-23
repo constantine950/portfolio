@@ -29,7 +29,7 @@ const projects = [
     ],
     githubUrl:
       "https://github.com/constantine950/The-Wild-Oasis-Customer-Website",
-    liveUrl: "https://thewildoasis.com",
+    liveUrl: "https://the-wild-oasis-customer-website-nine.vercel.app",
   },
   {
     id: 2,
