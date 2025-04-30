@@ -7,6 +7,13 @@ import {
   ServerStackIcon,
 } from "@heroicons/react/24/outline";
 import React from "react";
+import {
+  ArrowPathIcon,
+  BoltIcon,
+  FireIcon,
+  LockClosedIcon,
+  MapPinIcon,
+} from "@heroicons/react/24/solid";
 
 export default function SkillsPage() {
   const skills = {
@@ -56,10 +63,40 @@ export default function SkillsPage() {
         color: "bg-black",
       },
       {
-        name: "Other Frontend Tools",
+        name: "Supabase",
         level: 75,
-        icon: <PaintBrushIcon className="h-5 w-5" />,
+        icon: <ServerStackIcon className="h-5 w-5" />,
+        color: "bg-green-600",
+      },
+      {
+        name: "NextAuth",
+        level: 70,
+        icon: <LockClosedIcon className="h-5 w-5" />,
         color: "bg-purple-600",
+      },
+      {
+        name: "React Router",
+        level: 85,
+        icon: <MapPinIcon className="h-5 w-5" />,
+        color: "bg-rose-500",
+      },
+      {
+        name: "React Query",
+        level: 80,
+        icon: <ArrowPathIcon className="h-5 w-5" />,
+        color: "bg-red-500",
+      },
+      {
+        name: "Redux",
+        level: 80,
+        icon: <BoltIcon className="h-5 w-5" />,
+        color: "bg-purple-500",
+      },
+      {
+        name: "Firebase",
+        level: 75,
+        icon: <FireIcon className="h-5 w-5" />,
+        color: "bg-yellow-500",
       },
     ],
   };

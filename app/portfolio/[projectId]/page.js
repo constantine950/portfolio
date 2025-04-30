@@ -19,7 +19,16 @@ const projects = [
       "Escape to the mountains. Find and book your perfect cabin in seconds.",
     longDescription:
       "A comprehensive booking platform for mountain cabins featuring real-time availability, payment on arrival, and user authentication. Built with modern web technologies to provide a seamless user experience.",
-    tags: ["nextJs", "Supabase", "Tailwindcss", "nextAuth"],
+    tags: [
+      "React",
+      "NextJs",
+      "Supabase",
+      "Tailwindcss",
+      "NextAuth",
+      "Date-fns",
+      "React-day-picker",
+      "Heroicons/react",
+    ],
     image: "/para.png",
     features: [
       "Real-time cabin availability",
@@ -38,7 +47,7 @@ const projects = [
       "Crave it. Tap it. Get your favorite pizza delivered hot and fresh.",
     longDescription:
       "A pizza ordering application with menu customization, cart functionality, and order tracking. Designed for fast and intuitive ordering experience.",
-    tags: ["React", "Redux", "Tailwindcss"],
+    tags: ["Vite", "React", "Redux", "Tailwindcss", "React-router"],
     image: "/piz.png",
     features: [
       "Menu customization",
@@ -83,6 +92,67 @@ const projects = [
     ],
     githubUrl: "https://github.com/constantine950/sailor",
     liveUrl: "https://sailor-delta.vercel.app",
+  },
+  {
+    id: 5,
+    title: "Church Website",
+    description:
+      "A modern, responsive website designed for a church to share events, sermons, and connect with the community online.",
+    longDescription:
+      "This project is a fully responsive church website built to enhance the church's online presence. It features sections for upcoming events, sermon archives, service times. The website is designed with a clean and welcoming layout to reflect the church’s mission and invite both members and visitors to engage. it prioritizes ease of navigation, accessibility, and mobile-friendliness.",
+    tags: ["HTML", "Tailwindcss", "Owl-carousel", "BootsrapIcons"],
+    image: "/chu.png",
+    features: [
+      "Sleek design",
+      "Experimental layouts",
+      "New tailwind classes",
+      "Responsive design",
+    ],
+    githubUrl: "https://github.com/constantine950/church-repo",
+    liveUrl: "https://church-website-pied.vercel.app",
+  },
+  {
+    id: 6,
+    title: "WorldWise",
+    description:
+      "WorldWise maps your travels. Remember every city. Share your journey.",
+    longDescription:
+      "WorldWise tracks your adventures across the globe. Mark every city you visit, cherish your memories, and share your journey with friends.",
+    tags: [
+      "Vite",
+      "React",
+      "Json-server",
+      "Leaflet",
+      "React-datepicker",
+      "React-router",
+    ],
+    image: "/wor.png",
+    features: [
+      "Add city you have been to",
+      "Delete city",
+      "Map implementation to mark city/country",
+      "Best viewed on medium screens and up",
+    ],
+    githubUrl: "https://github.com/constantine950/worldwise",
+    liveUrl: "https://worldwise-henna-ten.vercel.app",
+  },
+
+  {
+    id: 7,
+    title: "MindLab",
+    description: "Built for fun and learning purposes",
+    longDescription:
+      "An experimental web project exploring creative CSS animations and interactive elements. Serves as a playground for frontend development techniques.",
+    tags: ["HTML", "Tailwindcss"],
+    image: "/mind.png",
+    features: [
+      "Sleek design",
+      "Experimental layouts",
+      "New tailwind classes",
+      "Medium screens up only",
+    ],
+    githubUrl: "https://github.com/constantine950/mindlab",
+    liveUrl: "https://mindlab-lwsj.vercel.app",
   },
 ];
 

@@ -11,7 +11,16 @@ const projects = [
     title: "The-Wild-Oasis Customer Website",
     description:
       "Escape to the mountains. Find and book your perfect cabin in seconds.",
-    tags: ["nextJs", "Supabase", "Tailwindcss", "nextAuth"],
+    tags: [
+      "React",
+      "NextJs",
+      "Supabase",
+      "Tailwindcss",
+      "NextAuth",
+      "Date-fns",
+      "React-day-picker",
+      "Heroicons/react",
+    ],
     image: "/para.png",
   },
   {
@@ -19,7 +28,7 @@ const projects = [
     title: "Fast Pizza Co.",
     description:
       "Crave it. Tap it. Get your favorite pizza delivered hot and fresh.",
-    tags: ["React", "Redux", "Tailwindcss"],
+    tags: ["Vite", "React", "Redux", "Tailwindcss", "React-router"],
     image: "/piz.png",
   },
   {
@@ -36,6 +45,35 @@ const projects = [
     description: "Built for fun and learning purposes",
     tags: ["HTML", "Owl-carousel", "Tailwindcss"],
     image: "/sai.png",
+  },
+  {
+    id: 5,
+    title: "Church Website",
+    description:
+      "A modern, responsive website designed for a church to share events, sermons, and connect with the community online.",
+    tags: ["HTML", "Tailwindcss", "Owl-carousel", "BootsrapIcons"],
+    image: "/chu.png",
+  },
+  {
+    id: 6,
+    title: "Worldwise",
+    description:
+      "WorldWise maps your travels. Remember every city. Share your journey.",
+    tags: [
+      "Vite",
+      "Json-server",
+      "Leaflet",
+      "React-datepicker",
+      "React-router",
+    ],
+    image: "/wor.png",
+  },
+  {
+    id: 7,
+    title: "MindLab",
+    description: "Built for fun and learning purposes",
+    tags: ["HTML", "Tailwindcss"],
+    image: "/mind.png",
   },
 ];
 

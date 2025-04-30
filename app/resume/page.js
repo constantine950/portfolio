@@ -26,6 +26,26 @@ const experiences = [
   },
   {
     title: "Frontend Developer",
+    company: "Self-initiated Project",
+    duration: "One week",
+    responsibilities: [
+      "Built an interactive world map for users to track and mark cities they have visited",
+      "Implemented features for adding and deleting cities to personalize user journeys",
+      "Focused on smooth map interactions and optimized performance across all devices",
+    ],
+  },
+  {
+    title: "Frontend Developer",
+    company: "Self-initiated Project",
+    duration: "One week",
+    responsibilities: [
+      "Designed and developed a responsive church website to share events, sermons, and service times",
+      "Integrated donation functionality and a contact form to enhance user engagement",
+      "Created a clean, mobile-friendly layout to ensure accessibility and improve user experience",
+    ],
+  },
+  {
+    title: "Frontend Developer",
     company: "Personal Project",
     duration: "2 days",
     responsibilities: [
@@ -34,7 +54,18 @@ const experiences = [
   },
 ];
 
-const skills = ["React", "Next.js", "Tailwind CSS", "Other Frontend Tools"];
+const skills = [
+  "JavaScript",
+  "React",
+  "Next.js",
+  "Tailwind CSS",
+  "Supabase",
+  "NextAuth",
+  "React-router",
+  "React Query",
+  "Redux",
+  "Firebase",
+];
 
 // Animation variants
 const fadeInUp = {
