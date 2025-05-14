@@ -5,9 +5,9 @@ import { ArrowDownTrayIcon, EnvelopeIcon } from "@heroicons/react/24/outline";
 
 const experiences = [
   {
-    title: "Frontend Developer",
-    company: "Self-initiated Project",
-    duration: "A week",
+    title: "Frontend Developer Intern",
+    company: "NovaTravel Tech Solution",
+    duration: "Oct 2024 – Dec 2024",
     responsibilities: [
       "Designed and developed a responsive cabin booking interface for seamless user reservations",
       "Integrated calendar and datepicker features to enhance the booking experience",
@@ -15,41 +15,13 @@ const experiences = [
     ],
   },
   {
-    title: "Frontend Developer",
-    company: "Personal Project",
-    duration: "4 days",
+    title: "Frontend Developer Intern",
+    company: "GourmetGrid Technologies ",
+    duration: "Jan 2025 – Apr 2025",
     responsibilities: [
       "Built an intuitive pizza ordering UI with real-time order tracking",
       "Designed a fast, mobile-first layout for quick ordering on the go",
       "Collaborated with mock APIs to simulate full end-to-end user flow",
-    ],
-  },
-  {
-    title: "Frontend Developer",
-    company: "Self-initiated Project",
-    duration: "One week",
-    responsibilities: [
-      "Built an interactive world map for users to track and mark cities they have visited",
-      "Implemented features for adding and deleting cities to personalize user journeys",
-      "Focused on smooth map interactions and optimized performance across all devices",
-    ],
-  },
-  {
-    title: "Frontend Developer",
-    company: "Self-initiated Project",
-    duration: "One week",
-    responsibilities: [
-      "Designed and developed a responsive church website to share events, sermons, and service times",
-      "Integrated donation functionality and a contact form to enhance user engagement",
-      "Created a clean, mobile-friendly layout to ensure accessibility and improve user experience",
-    ],
-  },
-  {
-    title: "Frontend Developer",
-    company: "Personal Project",
-    duration: "2 days",
-    responsibilities: [
-      "Developed a sleek movie discovery app using modern frontend tools",
     ],
   },
 ];
@@ -115,7 +87,7 @@ export default function Resume() {
           {/* Resume Header */}
           <div className="p-6 border-b border-gray-200">
             <h2 className="text-xl sm:text-2xl font-bold text-gray-900">
-              James
+              Adebesin Omotoyosi James
             </h2>
             <p className="text-indigo-600 text-sm sm:text-base">
               Frontend Developer
@@ -141,9 +113,10 @@ export default function Resume() {
                 Summary
               </h3>
               <p className="text-gray-700 text-sm sm:text-base leading-relaxed">
-                Passionate frontend developer with 3+ years of experience
-                building responsive, user-friendly web applications. Specialized
-                in React, Next.js, modern CSS and other powerful frontend tools.
+                Hi, I’m Adebesin Omotoyosi James, A frontend developer and Lagos
+                State University graduate with a passion for clean code and
+                smooth user experiences. I love bringing ideas to life on the
+                web. Let’s build something amazing.
               </p>
             </motion.section>
 
