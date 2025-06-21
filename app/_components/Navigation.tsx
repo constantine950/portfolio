@@ -6,7 +6,6 @@ import { motion, AnimatePresence } from "framer-motion";
 import React from "react";
 import { useHeader } from "../context/HeaderProvider";
 
-// Define type for menu items
 type MenuItems = {
   title: string;
   link: string;
@@ -20,13 +19,11 @@ const items: MenuItems[] = [
   { title: "Contact", link: "/contact" },
 ];
 
-// Define possible screen sizes
 type ScreenSize = "sm" | "md" | "lg" | "xl";
 
 function Navigation(): React.ReactElement {
   const { isMobileMenuOpen, toggleMobileMenu } = useHeader();
 
-  // Helper function to render menu items for a specific screen size
   const renderMenuItems = (screenSize: ScreenSize, className: string) => (
     <nav className={className}>
       <ul
@@ -51,7 +48,6 @@ function Navigation(): React.ReactElement {
 
   return (
     <>
-      {/* Mobile Menu Button Shows on sm only */}
       <button
         onClick={toggleMobileMenu}
         className="sm:block md:hidden"
@@ -78,13 +74,10 @@ function Navigation(): React.ReactElement {
         )}
       </AnimatePresence>
 
-      {/* Medium Screens (md) */}
       {renderMenuItems("md", "hidden sm:hidden md:block lg:hidden")}
 
-      {/* Large Screens (lg) */}
       {renderMenuItems("lg", "hidden sm:hidden md:hidden lg:block xl:hidden")}
 
-      {/* Extra Large Screens (xl) */}
       {renderMenuItems("xl", "hidden sm:hidden md:hidden lg:hidden xl:block")}
     </>
   );
