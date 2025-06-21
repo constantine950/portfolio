@@ -4,13 +4,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 
-// Type for individual menu item (matches Navigation component)
 type MenuItem = {
   title: string;
   link: string;
 };
 
-// Props type for MenuItem component
 type MenuItemProps = {
   item: MenuItem;
   index: number;
