@@ -47,7 +47,7 @@ export async function POST(request: Request): Promise<NextResponse> {
       text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
       html: `
         <div>
-          <h1>New Contact Form Submission</h1>
+          <h1>New Contact </h1>
           <p><strong>Name:</strong> ${name}</p>
           <p><strong>Email:</strong> ${email}</p>
           <p><strong>Message:</strong></p>

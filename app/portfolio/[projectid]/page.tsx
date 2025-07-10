@@ -44,6 +44,31 @@ const PROJECTS: Project[] = [
   },
   {
     id: 2,
+    title: "Rivo - AI Chat Assistant",
+    description:
+      "Chat. Ask. Resolve. Your intelligent AI assistant for instant answers and seamless support.",
+    longDescription:
+      "A conversational AI chatbot with natural language processing, real-time interactions, and personalized responses. Designed for intuitive user experiences and 24/7 assistance.",
+    tags: [
+      "Vite",
+      "React",
+      "Heroicons",
+      "Tailwindcss",
+      "React-router",
+      "OpenAI API",
+    ],
+    image: "/rivopic.png",
+    features: [
+      "Real-time messaging",
+      "Context-aware conversations",
+      "Multi-language support",
+      "Responsive UI",
+    ],
+    githubUrl: "https://github.com/constantine950/rivo-chatbot",
+    liveUrl: "https://rivo-chatbot.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Sailor",
     description: "Built for fun and learning purposes",
     longDescription:
@@ -60,7 +85,7 @@ const PROJECTS: Project[] = [
     liveUrl: "https://sailor-delta.vercel.app",
   },
   {
-    id: 3,
+    id: 4,
     title: "Movie App",
     description:
       "Find what to watch next — movies, trailers, and more at your fingertips.",
@@ -78,7 +103,7 @@ const PROJECTS: Project[] = [
     liveUrl: "https://movie-app-six-tau-54.vercel.app",
   },
   {
-    id: 4,
+    id: 5,
     title: "Church Website",
     description:
       "A modern, responsive website designed for a church to share events, sermons, and connect with the community online.",

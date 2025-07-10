@@ -26,13 +26,28 @@ const projects: ProjectType[] = [
   },
   {
     id: 2,
+    title: "Rivo - AI Chat Assistant",
+    description:
+      "Conversational AI that understands you. Get instant answers, personalized recommendations, and 24/7 assistance.",
+    tags: [
+      "Vite",
+      "React",
+      "Heroicons",
+      "Tailwindcss",
+      "React-router",
+      "OpenAI API",
+    ],
+    image: "/rivopic.png",
+  },
+  {
+    id: 3,
     title: "Sailor",
     description: "Built for fun and learning purposes",
     tags: ["HTML", "Owl-carousel", "Tailwindcss"],
     image: "/sai.png",
   },
   {
-    id: 3,
+    id: 4,
     title: "Movie App",
     description:
       "Find what to watch next — movies, trailers, and more at your fingertips.",
@@ -40,7 +55,7 @@ const projects: ProjectType[] = [
     image: "/mov.png",
   },
   {
-    id: 4,
+    id: 5,
     title: "Church Website",
     description:
       "A modern, responsive website designed for a church to share events, sermons, and connect with the community online.",
