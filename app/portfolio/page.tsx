@@ -26,6 +26,22 @@ const projects: ProjectType[] = [
   },
   {
     id: 2,
+    title: "Kiva ChatApp",
+    description:
+      "Connect instantly with friends and colleagues. Fast, secure, and built for modern conversations.",
+    tags: [
+      "Vite",
+      "React",
+      "Clerk",
+      "Firestore",
+      "Tailwindcss",
+      "React-router",
+      "Supabase",
+    ],
+    image: "/kivaa.png",
+  },
+  {
+    id: 3,
     title: "Rivo - AI Chat Assistant",
     description:
       "Conversational AI that understands you. Get instant answers, personalized recommendations, and 24/7 assistance.",
@@ -35,19 +51,19 @@ const projects: ProjectType[] = [
       "Heroicons",
       "Tailwindcss",
       "React-router",
-      "OpenAI API",
+      "Grok API",
     ],
     image: "/rivopic.png",
   },
   {
-    id: 3,
+    id: 4,
     title: "Sailor",
     description: "Built for fun and learning purposes",
     tags: ["HTML", "Owl-carousel", "Tailwindcss"],
     image: "/sai.png",
   },
   {
-    id: 4,
+    id: 5,
     title: "Movie App",
     description:
       "Find what to watch next — movies, trailers, and more at your fingertips.",
@@ -55,7 +71,7 @@ const projects: ProjectType[] = [
     image: "/mov.png",
   },
   {
-    id: 5,
+    id: 6,
     title: "Church Website",
     description:
       "A modern, responsive website designed for a church to share events, sermons, and connect with the community online.",

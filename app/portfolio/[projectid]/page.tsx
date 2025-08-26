@@ -44,6 +44,33 @@ const PROJECTS: Project[] = [
   },
   {
     id: 2,
+    title: "Kiva ChatApp",
+    description:
+      "Chat smarter. Stay connected with friends and colleagues in real time.",
+    longDescription:
+      "A modern chat application with authentication, instant messaging, and real-time syncing. Built with performance and simplicity in mind for a seamless communication experience.",
+    tags: [
+      "Vite",
+      "React",
+      "Clerk",
+      "Firestore",
+      "Tailwindcss",
+      "React-router",
+      "Supabase",
+    ],
+    image: "/kivaa.png",
+    features: [
+      "User authentication",
+      "Instant messaging",
+      "Real-time message syncing",
+      "Friend management",
+      "Responsive design",
+    ],
+    githubUrl: "https://github.com/constantine950/kiva-chatapp",
+    liveUrl: "https://kiva-chatapp.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Rivo - AI Chat Assistant",
     description:
       "Chat. Ask. Resolve. Your intelligent AI assistant for instant answers and seamless support.",
@@ -68,7 +95,7 @@ const PROJECTS: Project[] = [
     liveUrl: "https://rivo-chatbot.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Sailor",
     description: "Built for fun and learning purposes",
     longDescription:
@@ -85,7 +112,7 @@ const PROJECTS: Project[] = [
     liveUrl: "https://sailor-delta.vercel.app",
   },
   {
-    id: 4,
+    id: 5,
     title: "Movie App",
     description:
       "Find what to watch next — movies, trailers, and more at your fingertips.",
@@ -103,7 +130,7 @@ const PROJECTS: Project[] = [
     liveUrl: "https://movie-app-six-tau-54.vercel.app",
   },
   {
-    id: 5,
+    id: 6,
     title: "Church Website",
     description:
       "A modern, responsive website designed for a church to share events, sermons, and connect with the community online.",
