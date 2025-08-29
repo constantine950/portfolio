@@ -3,18 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
-
-type MenuItem = {
-  title: string;
-  link: string;
-};
-
-type MenuItemProps = {
-  item: MenuItem;
-  index: number;
-  toggleMobileMenu?: () => void;
-  screenSize: "sm" | "md" | "lg" | "xl";
-};
+import { MenuItemProps } from "../_types&data/type";
 
 function MenuItem({
   item,

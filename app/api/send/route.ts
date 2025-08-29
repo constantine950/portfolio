@@ -1,11 +1,6 @@
+import { EmailPayload } from "@/app/_types&data/type";
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
-
-interface EmailPayload {
-  name: string;
-  email: string;
-  message: string;
-}
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 

@@ -5,21 +5,8 @@ import MenuItem from "./MenuItem";
 import { motion, AnimatePresence } from "framer-motion";
 import React from "react";
 import { useHeader } from "../context/HeaderProvider";
-
-type MenuItems = {
-  title: string;
-  link: string;
-};
-
-const items: MenuItems[] = [
-  { title: "Home", link: "/" },
-  { title: "Projects", link: "/portfolio" },
-  { title: "Resume", link: "/resume" },
-  { title: "Skills", link: "/skills" },
-  { title: "Contact", link: "/contact" },
-];
-
-type ScreenSize = "sm" | "md" | "lg" | "xl";
+import { items } from "../_types&data/appdata";
+import { ScreenSize } from "../_types&data/type";
 
 function Navigation(): React.ReactElement {
   const { isMobileMenuOpen, toggleMobileMenu } = useHeader();
