@@ -1,11 +1,7 @@
 "use client";
 
 import React, { createContext, useContext, useState } from "react";
-
-type HeaderContextValue = {
-  isMobileMenuOpen: boolean;
-  toggleMobileMenu: () => void;
-};
+import { HeaderContextValue } from "../_types&data/type";
 
 const HeaderContext = createContext<HeaderContextValue | undefined>(undefined);
 

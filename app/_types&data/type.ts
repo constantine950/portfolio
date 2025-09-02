@@ -91,3 +91,20 @@ export interface ContactFormProps {
   handleSubmit: (e: React.FormEvent) => void;
   setIsSuccess: (value: boolean) => void;
 }
+
+export type HeaderContextValue = {
+  isMobileMenuOpen: boolean;
+  toggleMobileMenu: () => void;
+};
+
+export interface Project {
+  id: number;
+  title: string;
+  description: string;
+  longDescription: string;
+  tags: string[];
+  image: string;
+  features: string[];
+  githubUrl?: string;
+  liveUrl?: string;
+}
