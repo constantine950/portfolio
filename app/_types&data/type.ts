@@ -20,11 +20,9 @@ type ProjectType = {
   image: string;
 };
 
-type SizeKey = ScreenSize;
-
 export interface ProjectProps {
   project: ProjectType;
-  size?: SizeKey;
+  size?: ScreenSize;
 }
 
 type SizeVal = {
@@ -36,7 +34,7 @@ type SizeVal = {
   iconSize: string;
 };
 
-export type SizeConfigure = Record<SizeKey, SizeVal>;
+export type SizeConfigure = Record<ScreenSize, SizeVal>;
 
 export interface EmailPayload {
   name: string;
@@ -108,3 +106,39 @@ export interface Project {
   githubUrl?: string;
   liveUrl?: string;
 }
+
+export type ProjectTypes = {
+  id: number;
+  title: string;
+  description: string;
+  tags: string[];
+  image: string;
+};
+
+export type Experience = {
+  title: string;
+  company: string;
+  duration: string;
+  responsibilities: string[];
+};
+
+export type Skill = string;
+
+export type CTAButtonProps = {
+  href: string;
+  download?: string;
+  icon: React.ReactNode;
+  text: string;
+  variant: "primary" | "secondary";
+};
+
+export type ResumeSectionProps = {
+  title: string;
+  children: React.ReactNode;
+};
+
+export type ExperienceItemProps = {
+  experience: Experience;
+  isLast: boolean;
+  index: number;
+};

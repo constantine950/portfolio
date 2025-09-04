@@ -1,4 +1,11 @@
-import { MenuItems, Project, SizeConfigure } from "./type";
+import {
+  Experience,
+  MenuItems,
+  Project,
+  ProjectTypes,
+  SizeConfigure,
+  Skill,
+} from "./type";
 
 export const items: MenuItems[] = [
   { title: "Home", link: "/" },
@@ -42,6 +49,71 @@ export const sizeConfig: SizeConfigure = {
     iconSize: "h-4 w-4",
   },
 };
+
+export const projects: ProjectTypes[] = [
+  {
+    id: 1,
+    title: "Fast Pizza Co.",
+    description:
+      "Crave it. Tap it. Get your favorite pizza delivered hot and fresh.",
+    tags: ["Vite", "React", "Redux", "Tailwindcss", "React-router"],
+    image: "/piz.png",
+  },
+  {
+    id: 2,
+    title: "Kiva ChatApp",
+    description:
+      "Connect instantly with friends and colleagues. Fast, secure, and built for modern conversations.",
+    tags: [
+      "Vite",
+      "React",
+      "Clerk",
+      "Firestore",
+      "Tailwindcss",
+      "React-router",
+      "Supabase",
+    ],
+    image: "/kivaa.png",
+  },
+  {
+    id: 3,
+    title: "Rivo - AI Chat Assistant",
+    description:
+      "Conversational AI that understands you. Get instant answers, personalized recommendations, and 24/7 assistance.",
+    tags: [
+      "Vite",
+      "React",
+      "Heroicons",
+      "Tailwindcss",
+      "React-router",
+      "Grok API",
+    ],
+    image: "/rivopic.png",
+  },
+  {
+    id: 4,
+    title: "Sailor",
+    description: "Built for fun and learning purposes",
+    tags: ["HTML", "Owl-carousel", "Tailwindcss"],
+    image: "/sai.png",
+  },
+  {
+    id: 5,
+    title: "Movie App",
+    description:
+      "Find what to watch next — movies, trailers, and more at your fingertips.",
+    tags: ["HTML", "Owl-carousel", "Tailwindcss"],
+    image: "/mov.png",
+  },
+  {
+    id: 6,
+    title: "Church Website",
+    description:
+      "A modern, responsive website designed for a church to share events, sermons, and connect with the community online.",
+    tags: ["HTML", "Tailwindcss", "Owl-carousel", "BootsrapIcons"],
+    image: "/chu.png",
+  },
+];
 
 export const PROJECTS: Project[] = [
   {
@@ -167,4 +239,40 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/constantine950/church-repo",
     liveUrl: "https://church-website-pied.vercel.app",
   },
+];
+
+export const experiences: Experience[] = [
+  {
+    title: "Frontend Developer Intern",
+    company: "NovaTravel Tech Solution",
+    duration: "Oct 2024 – Dec 2024",
+    responsibilities: [
+      "Designed and developed a responsive cabin booking interface for seamless user reservations",
+      "Integrated calendar and datepicker features to enhance the booking experience",
+      "Focused on performance optimization, achieving faster load times across devices",
+    ],
+  },
+  {
+    title: "Frontend Developer Intern",
+    company: "GourmetGrid Technologies",
+    duration: "Jan 2025 – Apr 2025",
+    responsibilities: [
+      "Built an intuitive pizza ordering UI with real-time order tracking",
+      "Designed a fast, mobile-first layout for quick ordering on the go",
+      "Collaborated with mock APIs to simulate full end-to-end user flow",
+    ],
+  },
+];
+
+export const skills: Skill[] = [
+  "JavaScript",
+  "React",
+  "Next.js",
+  "Tailwind CSS",
+  "Supabase",
+  "NextAuth",
+  "React-router",
+  "React Query",
+  "Redux",
+  "Firebase",
 ];

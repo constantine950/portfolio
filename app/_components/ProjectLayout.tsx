@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { useRouter } from "next/router";
 import { Project } from "../_types&data/type";
 import BackButton from "./BackButton";
 import ProjectHeader from "./ProjectHeader";

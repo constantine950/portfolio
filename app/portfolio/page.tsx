@@ -4,81 +4,8 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import ProjectCard from "../_components/ProjectCard";
-
-type ProjectType = {
-  id: number;
-  title: string;
-  description: string;
-  tags: string[];
-  image: string;
-};
-
-type SizeKey = "sm" | "md" | "lg" | "xl";
-
-const projects: ProjectType[] = [
-  {
-    id: 1,
-    title: "Fast Pizza Co.",
-    description:
-      "Crave it. Tap it. Get your favorite pizza delivered hot and fresh.",
-    tags: ["Vite", "React", "Redux", "Tailwindcss", "React-router"],
-    image: "/piz.png",
-  },
-  {
-    id: 2,
-    title: "Kiva ChatApp",
-    description:
-      "Connect instantly with friends and colleagues. Fast, secure, and built for modern conversations.",
-    tags: [
-      "Vite",
-      "React",
-      "Clerk",
-      "Firestore",
-      "Tailwindcss",
-      "React-router",
-      "Supabase",
-    ],
-    image: "/kivaa.png",
-  },
-  {
-    id: 3,
-    title: "Rivo - AI Chat Assistant",
-    description:
-      "Conversational AI that understands you. Get instant answers, personalized recommendations, and 24/7 assistance.",
-    tags: [
-      "Vite",
-      "React",
-      "Heroicons",
-      "Tailwindcss",
-      "React-router",
-      "Grok API",
-    ],
-    image: "/rivopic.png",
-  },
-  {
-    id: 4,
-    title: "Sailor",
-    description: "Built for fun and learning purposes",
-    tags: ["HTML", "Owl-carousel", "Tailwindcss"],
-    image: "/sai.png",
-  },
-  {
-    id: 5,
-    title: "Movie App",
-    description:
-      "Find what to watch next — movies, trailers, and more at your fingertips.",
-    tags: ["HTML", "Owl-carousel", "Tailwindcss"],
-    image: "/mov.png",
-  },
-  {
-    id: 6,
-    title: "Church Website",
-    description:
-      "A modern, responsive website designed for a church to share events, sermons, and connect with the community online.",
-    tags: ["HTML", "Tailwindcss", "Owl-carousel", "BootsrapIcons"],
-    image: "/chu.png",
-  },
-];
+import { ScreenSize } from "../_types&data/type";
+import { projects } from "../_types&data/appdata";
 
 export default function Portfolio() {
   const [windowSize, setWindowSize] = useState({
@@ -101,7 +28,7 @@ export default function Portfolio() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const getSize = (): SizeKey => {
+  const getSize = (): ScreenSize => {
     if (windowSize.width >= 1280) return "xl";
     if (windowSize.width >= 1024) return "lg";
     if (windowSize.width >= 768) return "md";
