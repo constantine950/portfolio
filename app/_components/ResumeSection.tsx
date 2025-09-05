@@ -1,6 +1,11 @@
 import { ResumeSectionProps } from "../_types&data/type";
 import { motion } from "framer-motion";
-import { fadeInUp } from "../resume/page";
+
+// Animation variants
+const fadeInUp = {
+  hidden: { opacity: 0, y: 30 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+};
 
 export default function ResumeSection({ title, children }: ResumeSectionProps) {
   return (

@@ -142,3 +142,39 @@ export type ExperienceItemProps = {
   isLast: boolean;
   index: number;
 };
+
+// Type definitions
+export type Skills = {
+  name: string;
+  level: number;
+  icon: React.ReactElement<{ className?: string }>;
+  color: string;
+};
+
+export type SkillsCategory = {
+  [key: string]: Skills[];
+};
+
+export type SkillsCategorySectionProps = {
+  category: string;
+  items: Skills[];
+  categoryIndex: number;
+};
+
+export type CategoryIconProps = {
+  category: string;
+};
+
+export type SkillCardProps = {
+  skill: Skills;
+  index: number;
+};
+
+export type SkillHeaderProps = {
+  skill: Skills;
+};
+
+export type ProgressBarProps = {
+  skill: Skills;
+  index: number;
+};
