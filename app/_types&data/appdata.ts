@@ -271,6 +271,8 @@ export const skills: Skill[] = [
   "Tailwind CSS",
   "Supabase",
   "NextAuth",
+  "Clerk",
+  "Prisma",
   "React-router",
   "React Query",
   "Redux",
