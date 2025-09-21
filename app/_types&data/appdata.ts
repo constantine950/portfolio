@@ -77,6 +77,23 @@ export const projects: ProjectTypes[] = [
   },
   {
     id: 3,
+    title: "Àṣàfé — Local-First Community",
+    description:
+      "A local-first PWA that lets you post, read, and sync content offline with Dexie and Supabase when back online.",
+    tags: [
+      "Vite",
+      "React",
+      "TypeScript",
+      "TailwindCSS",
+      "Dexie",
+      "IndexedDB",
+      "Supabase",
+      "Service Worker",
+    ],
+    image: "/asafe.png",
+  },
+  {
+    id: 4,
     title: "Rivo - AI Chat Assistant",
     description:
       "Conversational AI that understands you. Get instant answers, personalized recommendations, and 24/7 assistance.",
@@ -91,14 +108,14 @@ export const projects: ProjectTypes[] = [
     image: "/rivopic.png",
   },
   {
-    id: 4,
+    id: 5,
     title: "Sailor",
     description: "Built for fun and learning purposes",
     tags: ["HTML", "Owl-carousel", "Tailwindcss"],
     image: "/sai.png",
   },
   {
-    id: 5,
+    id: 6,
     title: "Movie App",
     description:
       "Find what to watch next — movies, trailers, and more at your fingertips.",
@@ -106,7 +123,7 @@ export const projects: ProjectTypes[] = [
     image: "/mov.png",
   },
   {
-    id: 6,
+    id: 7,
     title: "Church Website",
     description:
       "A modern, responsive website designed for a church to share events, sermons, and connect with the community online.",
@@ -163,6 +180,33 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 3,
+    title: "Àṣàfé — Local-First Community",
+    description: "Share and sync posts seamlessly, even offline.",
+    longDescription:
+      "Àṣàfé is a resilient local-first PWA where users can create and view posts offline, with data syncing automatically when online. Built for communities that need reliability in low-connectivity environments.",
+    tags: [
+      "Vite",
+      "React",
+      "TypeScript",
+      "TailwindCSS",
+      "Dexie",
+      "IndexedDB",
+      "Supabase",
+      "Service Worker",
+    ],
+    image: "/asafe.png",
+    features: [
+      "Offline-first posting with Dexie.js",
+      "Automatic background sync with Supabase",
+      "Realtime updates via Supabase subscriptions",
+      "User authentication and profiles",
+      "Installable PWA with service worker caching",
+    ],
+    githubUrl: "https://github.com/constantine950/asafe",
+    liveUrl: "https://asafe-ot36.vercel.app/",
+  },
+  {
+    id: 4,
     title: "Rivo - AI Chat Assistant",
     description:
       "Chat. Ask. Resolve. Your intelligent AI assistant for instant answers and seamless support.",
@@ -187,7 +231,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://rivo-chatbot.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Sailor",
     description: "Built for fun and learning purposes",
     longDescription:
@@ -204,7 +248,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://sailor-delta.vercel.app",
   },
   {
-    id: 5,
+    id: 6,
     title: "Movie App",
     description:
       "Find what to watch next — movies, trailers, and more at your fingertips.",
@@ -222,7 +266,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://movie-app-six-tau-54.vercel.app",
   },
   {
-    id: 6,
+    id: 7,
     title: "Church Website",
     description:
       "A modern, responsive website designed for a church to share events, sermons, and connect with the community online.",
