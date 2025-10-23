@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import ContactItem from "./ContactItem";
-import { EnvelopeIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/solid";
+import { EnvelopeIcon } from "@heroicons/react/24/solid";
 import SocialLinks from "./SocialLinks";
 
 export default function ContactInfo() {
@@ -21,19 +21,6 @@ export default function ContactInfo() {
             title="Email"
             content="omotoyosiadebeshin@gmail.com"
             href="mailto:omotoyosiadebeshin@gmail.com"
-          />
-
-          <ContactItem
-            icon={<PhoneIcon className="h-5 w-5 sm:h-6 sm:w-6" />}
-            title="Phone"
-            content="+234 812 759 7385"
-            href="tel:+2348127597385"
-          />
-
-          <ContactItem
-            icon={<MapPinIcon className="h-5 w-5 sm:h-6 sm:w-6" />}
-            title="Location"
-            content="Lagos, Nigeria"
           />
         </div>
       </div>

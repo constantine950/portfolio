@@ -5,11 +5,6 @@ import {
   CodeBracketIcon,
   PaintBrushIcon,
   ServerStackIcon,
-  ArrowPathIcon,
-  BoltIcon,
-  FireIcon,
-  LockClosedIcon,
-  MapPinIcon,
 } from "@heroicons/react/24/solid";
 import { SkillsCategory } from "../_types&data/type";
 import SkillPageHeader from "../_components/SkillPageHeader";
@@ -47,55 +42,11 @@ const skills: SkillsCategory = {
       icon: <CodeBracketIcon />,
       color: "bg-yellow-500",
     },
-  ],
-  Tools: [
     {
-      name: "Git",
-      level: 85,
-      icon: <CodeBracketIcon />,
-      color: "bg-red-600",
-    },
-    {
-      name: "Vercel",
-      level: 80,
+      name: "Vite",
+      level: 95,
       icon: <ServerStackIcon />,
-      color: "bg-black",
-    },
-    {
-      name: "Supabase",
-      level: 75,
-      icon: <ServerStackIcon />,
-      color: "bg-green-600",
-    },
-    {
-      name: "NextAuth",
-      level: 70,
-      icon: <LockClosedIcon />,
-      color: "bg-purple-600",
-    },
-    {
-      name: "React Router",
-      level: 85,
-      icon: <MapPinIcon />,
-      color: "bg-rose-500",
-    },
-    {
-      name: "React Query",
-      level: 80,
-      icon: <ArrowPathIcon />,
-      color: "bg-red-500",
-    },
-    {
-      name: "Redux",
-      level: 80,
-      icon: <BoltIcon />,
-      color: "bg-purple-500",
-    },
-    {
-      name: "Firebase",
-      level: 75,
-      icon: <FireIcon />,
-      color: "bg-yellow-500",
+      color: "bg-indigo-600",
     },
   ],
 };

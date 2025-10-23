@@ -1,27 +1,11 @@
 "use client";
 import { motion } from "framer-motion";
 import { ArrowDownTrayIcon, EnvelopeIcon } from "@heroicons/react/24/outline";
-import { experiences, skills } from "../_types&data/appdata";
+import { experiences } from "../_types&data/appdata";
 import ResumeHeader from "../_components/ResumeHeader";
 import CTAButton from "../_components/CTAButton";
 import ResumeSection from "../_components/ResumeSection";
 import ExperienceItem from "../_components/ExperienceItem";
-
-// Animation variants
-const fadeInUp = {
-  hidden: { opacity: 0, y: 30 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-};
-
-const staggerContainer = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.1,
-    },
-  },
-};
 
 export default function Resume() {
   return (
@@ -62,10 +46,10 @@ export default function Resume() {
           <div className="divide-y divide-gray-200">
             <ResumeSection title="Summary">
               <p className="text-gray-700 text-sm sm:text-base leading-relaxed">
-                Hi, I&apos;m Adebesin Omotoyosi James, a frontend developer and
-                Lagos State University graduate with a passion for clean code
-                and smooth user experiences. I love bringing ideas to life on
-                the web. Let&apos;s build something amazing.
+                Hi, I&apos;m James, a frontend developer and Lagos State
+                University graduate with a passion for clean code and smooth
+                user experiences. I love bringing ideas to life on the web.
+                Let&apos;s build something amazing.
               </p>
             </ResumeSection>
 
@@ -80,27 +64,6 @@ export default function Resume() {
                   />
                 ))}
               </div>
-            </ResumeSection>
-
-            <ResumeSection title="Skills">
-              <motion.div
-                className="flex flex-wrap gap-2"
-                variants={staggerContainer}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-              >
-                {skills.map((skill, i) => (
-                  <motion.span
-                    key={i}
-                    variants={fadeInUp}
-                    transition={{ delay: i * 0.1, duration: 0.3 }}
-                    className="px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-sm sm:text-base"
-                  >
-                    {skill}
-                  </motion.span>
-                ))}
-              </motion.div>
             </ResumeSection>
           </div>
         </div>

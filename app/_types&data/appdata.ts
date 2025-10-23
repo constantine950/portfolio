@@ -53,15 +53,15 @@ export const sizeConfig: SizeConfigure = {
 export const projects: ProjectTypes[] = [
   {
     id: 1,
-    title: "Fast Pizza Co.",
+    title: "Flet",
     description:
-      "Crave it. Tap it. Get your favorite pizza delivered hot and fresh.",
-    tags: ["Vite", "React", "Redux", "Tailwindcss", "React-router"],
-    image: "/piz.png",
+      "Find your perfect home with a modern and seamless property browsing experience.",
+    tags: ["Next.js", "React", "TailwindCSS", "React-icons", "TypeSCript"],
+    image: "/flet.png",
   },
   {
     id: 2,
-    title: "Kiva ChatApp",
+    title: "Kiva",
     description:
       "Connect instantly with friends and colleagues. Fast, secure, and built for modern conversations.",
     tags: [
@@ -77,7 +77,16 @@ export const projects: ProjectTypes[] = [
   },
   {
     id: 3,
-    title: "Àṣàfé — Local-First Community",
+    title: "Loka",
+    description:
+      "Find your perfect home with a modern and seamless property browsing experience.",
+    tags: ["React", "Next.js", "Tailwindcss", "Lucide-React", "TypeScript"],
+    image: "/loka.png",
+  },
+
+  {
+    id: 4,
+    title: "Àṣàfé",
     description:
       "A local-first PWA that lets you post, read, and sync content offline with Dexie and Supabase when back online.",
     tags: [
@@ -93,8 +102,17 @@ export const projects: ProjectTypes[] = [
     image: "/asafe.png",
   },
   {
-    id: 4,
-    title: "Rivo - AI Chat Assistant",
+    id: 5,
+    title: "Ìtàn",
+    description:
+      "Making Nigerian history interactive and accessible through timelines and shared stories.",
+    tags: ["React", "Next.js", "Tailwindcss", "Firebase", "TypeScript"],
+    image: "/itan.png",
+  },
+
+  {
+    id: 6,
+    title: "Rivo",
     description:
       "Conversational AI that understands you. Get instant answers, personalized recommendations, and 24/7 assistance.",
     tags: [
@@ -108,52 +126,37 @@ export const projects: ProjectTypes[] = [
     image: "/rivopic.png",
   },
   {
-    id: 5,
-    title: "Sailor",
-    description: "Built for fun and learning purposes",
-    tags: ["HTML", "Owl-carousel", "Tailwindcss"],
-    image: "/sai.png",
-  },
-  {
-    id: 6,
-    title: "Movie App",
-    description:
-      "Find what to watch next — movies, trailers, and more at your fingertips.",
-    tags: ["HTML", "Owl-carousel", "Tailwindcss"],
-    image: "/mov.png",
-  },
-  {
     id: 7,
-    title: "Church Website",
+    title: "Fast Pizza Co.",
     description:
-      "A modern, responsive website designed for a church to share events, sermons, and connect with the community online.",
-    tags: ["HTML", "Tailwindcss", "Owl-carousel", "BootsrapIcons"],
-    image: "/chu.png",
+      "Crave it. Tap it. Get your favorite pizza delivered hot and fresh.",
+    tags: ["Vite", "React", "Redux", "Tailwindcss", "React-router"],
+    image: "/piz.png",
   },
 ];
 
 export const PROJECTS: Project[] = [
   {
     id: 1,
-    title: "Fast Pizza Co.",
+    title: "Flet",
     description:
-      "Crave it. Tap it. Get your favorite pizza delivered hot and fresh.",
+      "Style redefined. Discover modern fashion that blends comfort and confidence.",
     longDescription:
-      "A pizza ordering application with menu customization, cart functionality, and order tracking. Designed for fast and intuitive ordering experience.",
-    tags: ["Vite", "React", "Redux", "Tailwindcss", "React-router"],
-    image: "/piz.png",
+      "A contemporary fashion brand website crafted with simplicity and elegance. Flet emphasizes clean visuals, effortless navigation, and a seamless shopping experience that captures modern style.",
+    tags: ["Next.js", "React", "TailwindCSS", "React-icons", "TypeSCript"],
+    image: "/flet.png",
     features: [
-      "Menu customization",
+      "Product showcase",
       "Cart functionality",
-      "Order tracking",
       "Responsive design",
+      "Minimalist interface",
     ],
-    githubUrl: "https://github.com/constantine950/fast-react-pizza",
-    liveUrl: "https://fast-react-pizza-umber.vercel.app/",
+    githubUrl: "https://github.com/constantine950/flet-ecommerce",
+    liveUrl: "https://flet-ecommerce.vercel.app",
   },
   {
     id: 2,
-    title: "Kiva ChatApp",
+    title: "Kiva",
     description:
       "Chat smarter. Stay connected with friends and colleagues in real time.",
     longDescription:
@@ -180,7 +183,25 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 3,
-    title: "Àṣàfé — Local-First Community",
+    title: "Loka",
+    description:
+      "Find your perfect home with a modern and seamless property browsing experience.",
+    longDescription:
+      "A real estate platform for browsing homes and apartments for sale or rent. Offers property listing, property details, and a smooth, user-friendly interface for discovering ideal properties.",
+    tags: ["React", "Next.js", "Tailwindcss", "Lucide-React", "TypeScript"],
+    image: "/loka.png",
+    features: [
+      "Property listing and details",
+      "Detailed property pages",
+      "Contact Agent",
+      "Responsive modern UI",
+    ],
+    githubUrl: "https://github.com/constantine950/loka-real-estate",
+    liveUrl: "https://loka-real-estate.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Àṣàfé",
     description: "Share and sync posts seamlessly, even offline.",
     longDescription:
       "Àṣàfé is a resilient local-first PWA where users can create and view posts offline, with data syncing automatically when online. Built for communities that need reliability in low-connectivity environments.",
@@ -202,11 +223,29 @@ export const PROJECTS: Project[] = [
       "User authentication and profiles",
       "Installable PWA with service worker caching",
     ],
-    githubUrl: "https://github.com/constantine950/asafe",
-    liveUrl: "https://asafe-ot36.vercel.app/",
+    githubUrl: "https://github.com/constantine950/Asafe",
+    liveUrl: "https://asafe-seven.vercel.app",
   },
   {
-    id: 4,
+    id: 5,
+    title: "Ìtàn",
+    description:
+      "Explore Nigerian history interactively through stories, events, and timelines.",
+    longDescription:
+      "Ìtàn is a platform that makes Nigerian history engaging and accessible. Users can explore key events, browse interactive timelines, and discover the stories that shaped the nation. Designed to promote learning through visuals, storytelling, and easy navigation.",
+    tags: ["React", "Next.js", "Tailwindcss", "Firebase", "TypeScript"],
+    image: "/itan.png",
+    features: [
+      "Interactive historical timelines",
+      "Event and story browsing",
+      "Search and filter by era or topic",
+      "Responsive and visually engaging design",
+    ],
+    githubUrl: "https://github.com/constantine950/Itan",
+    liveUrl: "https://itan.vercel.app",
+  },
+  {
+    id: 6,
     title: "Rivo - AI Chat Assistant",
     description:
       "Chat. Ask. Resolve. Your intelligent AI assistant for instant answers and seamless support.",
@@ -230,58 +269,24 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/constantine950/rivo-chatbot",
     liveUrl: "https://rivo-chatbot.vercel.app/",
   },
-  {
-    id: 5,
-    title: "Sailor",
-    description: "Built for fun and learning purposes",
-    longDescription:
-      "An experimental web project exploring creative CSS animations and interactive elements. Serves as a playground for frontend development techniques.",
-    tags: ["HTML", "Owl-carousel", "Tailwindcss"],
-    image: "/sai.png",
-    features: [
-      "Interactive animations",
-      "Experimental layouts",
-      "Custom carousel implementations",
-      "Mobile-first approach",
-    ],
-    githubUrl: "https://github.com/constantine950/sailor",
-    liveUrl: "https://sailor-delta.vercel.app",
-  },
-  {
-    id: 6,
-    title: "Movie App",
-    description:
-      "Find what to watch next — movies, trailers, and more at your fingertips.",
-    longDescription:
-      "A movie discovery platform showcasing trending films with trailers, ratings, and recommendations. Features intuitive browsing with Owl Carousel integration.",
-    tags: ["HTML", "Owl-carousel", "Tailwindcss"],
-    image: "/mov.png",
-    features: [
-      "Trending movies showcase",
-      "Trailer integration",
-      "Responsive carousel",
-      "Minimalist UI design",
-    ],
-    githubUrl: "https://github.com/constantine950/movie-app",
-    liveUrl: "https://movie-app-six-tau-54.vercel.app",
-  },
+
   {
     id: 7,
-    title: "Church Website",
+    title: "Fast Pizza Co.",
     description:
-      "A modern, responsive website designed for a church to share events, sermons, and connect with the community online.",
+      "Crave it. Tap it. Get your favorite pizza delivered hot and fresh.",
     longDescription:
-      "This project is a fully responsive church website built to enhance the church's online presence. It features sections for upcoming events, sermon archives, service times. The website is designed with a clean and welcoming layout to reflect the church’s mission and invite both members and visitors to engage. it prioritizes ease of navigation, accessibility, and mobile-friendliness.",
-    tags: ["HTML", "Tailwindcss", "Owl-carousel", "BootsrapIcons"],
-    image: "/chu.png",
+      "A pizza ordering application with menu customization, cart functionality, and order tracking. Designed for fast and intuitive ordering experience.",
+    tags: ["Vite", "React", "Redux", "Tailwindcss", "React-router"],
+    image: "/piz.png",
     features: [
-      "Sleek design",
-      "Experimental layouts",
-      "New tailwind classes",
+      "Menu customization",
+      "Cart functionality",
+      "Order tracking",
       "Responsive design",
     ],
-    githubUrl: "https://github.com/constantine950/church-repo",
-    liveUrl: "https://church-website-pied.vercel.app",
+    githubUrl: "https://github.com/constantine950/fast-react-pizza",
+    liveUrl: "https://fast-react-pizza-umber.vercel.app/",
   },
 ];
 
@@ -306,19 +311,4 @@ export const experiences: Experience[] = [
       "Collaborated with mock APIs to simulate full end-to-end user flow",
     ],
   },
-];
-
-export const skills: Skill[] = [
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Tailwind CSS",
-  "Supabase",
-  "NextAuth",
-  "Clerk",
-  "Prisma",
-  "React-router",
-  "React Query",
-  "Redux",
-  "Firebase",
 ];

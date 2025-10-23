@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const socialLinks: SocialLink[] = [
   {
-    name: "Twitter",
+    name: "X",
     href: "https://x.com/jamesomotoyosi?s=21",
     icon: (
       <svg

@@ -7,8 +7,6 @@ export default function ResumeHeader() {
       <p className="text-indigo-600 text-sm sm:text-base">Frontend Developer</p>
       <div className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-sm sm:text-base text-gray-600">
         <span>omotoyosiadebeshin@gmail.com</span>
-        <span>08127597385</span>
-        <span>Lagos, NG</span>
       </div>
     </div>
   );
