@@ -4,7 +4,6 @@ import {
   Project,
   ProjectTypes,
   SizeConfigure,
-  Skill,
 } from "./type";
 
 export const items: MenuItems[] = [
@@ -293,22 +292,22 @@ export const PROJECTS: Project[] = [
 export const experiences: Experience[] = [
   {
     title: "Frontend Developer Intern",
-    company: "NovaTravel Tech Solution",
-    duration: "Oct 2024 – Dec 2024",
+    company: "SkyLink Logistics",
+    duration: "Sep 2024 – Dec 2024",
     responsibilities: [
-      "Designed and developed a responsive cabin booking interface for seamless user reservations",
-      "Integrated calendar and datepicker features to enhance the booking experience",
-      "Focused on performance optimization, achieving faster load times across devices",
+      "Created a simple dashboard to track deliveries in real time",
+      "Made the pages work well on both phones and laptops",
+      "Worked with API data to show shipment updates clearly",
     ],
   },
   {
     title: "Frontend Developer Intern",
-    company: "GourmetGrid Technologies",
-    duration: "Jan 2025 – Apr 2025",
+    company: "HealthHive Solutions",
+    duration: "Jun 2025 – Aug 2025",
     responsibilities: [
-      "Built an intuitive pizza ordering UI with real-time order tracking",
-      "Designed a fast, mobile-first layout for quick ordering on the go",
-      "Collaborated with mock APIs to simulate full end-to-end user flow",
+      "Built a clean appointment booking page for patients",
+      "Made the website easy to use on all screen sizes",
+      "Added basic reminder features to help users keep track of bookings",
     ],
   },
 ];
