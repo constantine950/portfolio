@@ -23,7 +23,7 @@ export default function Resume() {
           </h1>
           <div className="flex flex-wrap gap-3 mt-4">
             <CTAButton
-              href="/resume.pdf"
+              href="/James_Frontend_Developer_Resume.pdf"
               download="James_Frontend_Developer_Resume.pdf"
               icon={<ArrowDownTrayIcon className="h-5 w-5 mr-2" />}
               text="Download PDF"
