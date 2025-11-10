@@ -54,7 +54,7 @@ export const projects: ProjectTypes[] = [
     id: 1,
     title: "Flet",
     description:
-      "Find your perfect home with a modern and seamless property browsing experience.",
+      "Style redefined. Discover modern fashion that blends comfort and confidence.",
     tags: ["Next.js", "React", "TailwindCSS", "React-icons", "TypeSCript"],
     image: "/flet.png",
   },
